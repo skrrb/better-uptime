@@ -54,7 +54,7 @@ pub struct IncidentRequest {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub team_wait: Option<u64>,
     #[serde(skip_serializing_if = "Option::is_none")]
-    pub poliy_id: Option<String>,
+    pub policy_id: Option<String>,
 }
 
 #[derive(Clone, Debug, Deserialize)]
